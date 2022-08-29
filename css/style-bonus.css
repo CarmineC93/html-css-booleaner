@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+#header-wallpaper  {
+    background-color: rgb(79, 163, 236);
+    background-image: url("../img/pattern.png");
+    background-size: 30%;
+}
+
+#logo {
+    padding: 60px 0 0 90px;
+    width: 30%;
+}
+
+/* /HEADER */
+
+/* MAIN */
+
+.container {
+    padding: 30px 200px 10px 100px;
+}
+
+#big-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+}   
+
+#big-title h5,
+#big-title h6 {
+    color: rgb(191, 189, 189);
+}
+
+.author-article {
+    font-size: medium;
+}
+
+#author-color-name {
+    color:  rgb(79, 163, 236);
+}
+
+/* photos box */
+
+figure {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.data-article {
+    font-size: small;
+}
+
+#tim-photo1 {
+    width: 48%;
+}
+
+#tim-photo2 {
+    width: 41%;
+}
+
+/* /photos box */
+
+/* first paragraph and list */
+p {
+font-size: 120%;
+font-weight: 550;
+}
+
+ul {
+font-size: 120%;
+font-weight: 550;
+padding: 2%;
+}
+
+.highlight {
+background-color: yellow;
+}
+
+/* /first paragraph and list */
+
+/* table */
+
+
+/* /table */
+
+table{
+    border-spacing: 0;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+thead{
+    background-color: rgb(95, 180, 255);
+    padding: 10px;
+    color: white;
+}
+
+th, td {
+    text-align:left;
+    width: 400px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.blue-raw{
+    background-color: rgb(141, 202, 223);
+}
+
+/* /MAIN */
+
+/* FOOTER */
+.footer-title {
+    color:grey;
+    font-size: large;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.box-title1 {
+    width: 300px;
+    height: 250px; 
+    background-image: url("../img/monitor.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: large;
+    padding: 2%;
+  }
+
+  .box-title2 {
+    width: 300px;
+    height: 250px; 
+    background-image: url("../img/graph.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: large;
+    padding: 2%;
+
+  }
+  
+
+/* /FOOTER */
